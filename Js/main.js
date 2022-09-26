@@ -59,7 +59,7 @@ function sendmail(name, email, msg) {
 
 function emptyerror() {
     swal({
-        title: "Oh Sorry!",
+        title: "Sorry!",
         text: "Fields cannot be empty! 😞",
         icon: "error",
 
@@ -69,7 +69,7 @@ function emptyerror() {
 
 function success() {
     swal({
-        title: "Email sent successfully",
+        title: "Message was sent",
         text: "We will try to reply you in 24hrs 😀",
         icon: "success",
 
