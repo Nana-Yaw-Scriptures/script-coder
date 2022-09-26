@@ -9,7 +9,7 @@
 
 
 body.dark {
-   BACKGROUND: #242121;
+   background: #000000;
     color: var(--bg-color);
 }
 
@@ -36,7 +36,7 @@ body.dark {
 }
 
 .label .ball {
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(199, 166, 166);
     border-radius: 40%;
     position: absolute;
     top: 2px;
@@ -147,7 +147,7 @@ header {
 }
 
 .logo:hover {
-    color: #9ad3aa;
+    color: #060470;
     transition: 1.0s all linear;
 }
 
@@ -159,16 +159,16 @@ header {
 }
 
 .nav-link {
-    font-size: 0.9rem;
-    padding: 4px 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    padding: 4px 4px;
     border-radius: 0.2rem;
-    color: rgb(121, 201, 165);;
+    color: rgb(241, 29, 36);
 
 }
 
 .nav-link:hover {
     color: var(--main-color);
-    background: var(--container-color);
     transition: 0.3s all linear;
 }
 
@@ -227,9 +227,7 @@ header {
 .home-img {
     width: 180px;
     height: 180px;
-    opacity: 80%;
     border-radius: 50%;
-    background: #7aae9a;
     overflow: hidden;
     margin-bottom: 2rem;
     object-fit: cover;
@@ -327,8 +325,8 @@ header {
 }
 
 .about-data span {
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 500px;
     text-transform: uppercase;
     color: #f80a16;
 }
@@ -346,7 +344,7 @@ header {
     align-items: center;
     column-gap: 0.5rem;
     color: var(--bg-color);
-    background: #60936f;
+    background: #120277;
     padding: 12px 16px;
     border-radius: 0.4rem;
     margin-top: 1rem;
@@ -357,7 +355,7 @@ header {
 }
 
 .btn:hover {
-    background: #2e3e9c;
+    background: #3b4fc1;
     transition: 0.3s all linear;
 }
 
@@ -474,16 +472,17 @@ header {
 /* projects */
 .projects-contents {
     display: grid;
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(3, 140px);
     justify-content: center;
-    gap: 1.5rem;
+    gap: 1.2rem;
 }
 
 .projects-box {
     padding: 20px 10px;
-    background: hsl(134, 24%, 69%);
+    background: hsl(153, 34%, 65%);
     border-radius: 0.4rem;
     text-align: center;
+    font-style: bold;
 }
 
 .projects-box h2 {
@@ -544,7 +543,7 @@ header {
 
 .review-box img {
     width: 40%;
-    height: 30%;
+    height: 40%;
     border-radius: 50%;
     padding: 4px;
     border: 2px solid var(--main-color);
@@ -581,22 +580,22 @@ header {
 .contact-form textarea {
     border: none;
     outline: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 15px;
     color: #000;
     border-style: groove;
-    background: #80c5af;
     border-radius: 0.4rem;
 }
 
 .contact-form .send-btn {
     width: 120px;
+    color: #fff;
     font-size: 1rem;
     letter-spacing: 1px;
-    font-weight: 500px;
+    font-weight: 450px;
     text-transform: uppercase;
     padding: 12px;
-    background: #80c5af;
+    background: #141297;
     cursor: pointer;
 }
 
