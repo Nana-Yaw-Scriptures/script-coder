@@ -5,7 +5,7 @@ body {
     font-family: 'Poppins';
     position: relative;
     background: rgb(110, 251, 138);
-    background: linear-gradient(135deg, rgb(110, 251, 138) 8%, rgba(82,62,174,1) 8%, rgba(69,66,163,1) 23%, rgba(42,36,245,1) 23%, rgba(23,35,98,1) 69%, rgba(1,4,181,1) 69%, rgba(3,11,80,1) 90%, rgba(58,45,93,1) 90%);
+    background: linear-gradient(135deg, rgb(110, 251, 138) 8%, rgb(77, 56, 170) 8%, rgb(64, 61, 158) 23%, rgba(42,36,245,1) 23%, rgb(36, 147, 121) 69%, rgba(1,4,181,1) 69%, rgba(3,11,80,1) 90%, rgb(56, 155, 122) 90%);
 }
 html {
     position: relative;
