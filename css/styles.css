@@ -4,8 +4,8 @@ body {
     margin:40px;
     font-family: 'Poppins';
     position: relative;
-    background: rgb(110,117,251);
-    background: linear-gradient(135deg, rgba(110,117,251,1) 8%, rgba(82,62,174,1) 8%, rgba(69,66,163,1) 23%, rgba(42,36,245,1) 23%, rgba(23,35,98,1) 69%, rgba(1,4,181,1) 69%, rgba(3,11,80,1) 90%, rgba(58,45,93,1) 90%);
+    background: rgb(110, 251, 138);
+    background: linear-gradient(135deg, rgb(110, 251, 138) 8%, rgba(82,62,174,1) 8%, rgba(69,66,163,1) 23%, rgba(42,36,245,1) 23%, rgba(23,35,98,1) 69%, rgba(1,4,181,1) 69%, rgba(3,11,80,1) 90%, rgba(58,45,93,1) 90%);
 }
 html {
     position: relative;
