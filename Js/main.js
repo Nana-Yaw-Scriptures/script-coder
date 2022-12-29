@@ -29,11 +29,9 @@ var swiper = new Swiper(".reviews-content", {
 // Email JS
 function validate() {
     let name = document.querySelector(".name");
-    let email = document.querySelector(".email");
+    let email = document.querySelector(".Mail");
     let msg = document.querySelector(".message");
     let sendBtn = document.querySelector(".send-btn");
-
-
 
     sendBtn.addEventListener("click", (e) => {
         e.preventDefault();
@@ -47,14 +45,13 @@ function validate() {
 }
 validate();
 
-
-
 function sendmail(name, email, msg) {
-    emailjs.send("service_tofrt3t", "template_rb8qg2u", {
-        to_name: name,
-        from_name: email,
+    emailjs.send("service_tofrt3t","template_rb8qg2u",{
+        to_name: "Nana Yaw Scriptures",
+        from_name: name,
         message: msg,
-    });
+        from_email: email,
+        });
 }
 
 function emptyerror() {
@@ -70,7 +67,7 @@ function emptyerror() {
 function success() {
     swal({
         title: "Message was sent",
-        text: "We will try to reply you in 24hrs 😀",
+        text: "We try to reply you in 24hrs 😀",
         icon: "success",
 
     });
