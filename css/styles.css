@@ -5,7 +5,7 @@ body {
     font-family: 'Poppins';
     position: relative;
     background: rgb(237, 246, 238);
-    background: linear-gradient(135deg, rgb(44, 214, 78) 8%, rgb(77, 56, 170) 8%, rgb(64, 61, 158) 23%, rgba(42,36,245,1) 23%, rgb(44, 214, 71) 69%, rgba(1,4,181,1) 69%, rgba(3,11,80,1) 90%, rgb(44, 155, 122) 90%);
+    background: linear-gradient(135deg, rgb(22, 41, 109) 8%, rgb(44, 155, 122) 8%, rgb(64, 61, 158) 23%, rgba(42,36,245,1) 23%, rgb(44, 214, 71) 69%, rgba(1,4,181,1) 69%, rgba(3,11,80,1) 90%, rgb(44, 155, 122) 90%);
 }
 html {
     position: relative;
@@ -31,8 +31,8 @@ html {
       margin-top: 0px;
     }
     body {
-      background: rgb(110,117,251);
-      background: linear-gradient(228deg, rgba(110,117,251,1) 9%, rgba(82,62,174,1) 9%, rgba(69,66,163,1) 30%, rgba(42,36,245,1) 30%, rgba(128,19,211,1) 55%, rgba(125,20,212,1) 55%, rgba(23,35,98,1) 55%, rgba(1,4,181,1) 56%, rgba(3,11,80,1) 87%, rgba(58,45,93,1) 87%);
+      background: rgb(59, 118, 244);
+      background: linear-gradient(228deg, rgb(38, 130, 250) 9%, rgb(12, 55, 173) 9%, rgb(24, 19, 174) 30%, rgb(9, 3, 193) 30%, rgba(128,19,211,1) 55%, rgba(125,20,212,1) 55%, rgb(21, 46, 167) 55%, rgba(1,4,181,1) 56%, rgba(3,11,80,1) 87%, rgb(45, 73, 93) 87%);
       padding: 12px;
       margin: 0px;
     
@@ -49,7 +49,7 @@ html {
 }
 
 ::-moz-selection {
-    background-color: #1a66bc;
+    background-color: #317fd8;
     color: #ffffff;
 }
 
@@ -100,7 +100,7 @@ p {
     
     display:block;
     width: 100%;               
-    background-color:rgba(255,255, 255, 0.1);
+    background-color:rgba(116, 12, 12, 0.254);
     height: 1px;
   }
   div.hov p.h6 a{

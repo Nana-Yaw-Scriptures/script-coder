@@ -91,7 +91,7 @@ hr{
     width: 75%;
     margin-bottom: -30px;
     margin-left: 12%;
-    background: #b1b1b1;
+    background: #c9acac;
     opacity: 20%;
     
 }
@@ -337,6 +337,22 @@ header {
     line-height: 2.6rem;
     font-weight: 700;
     margin: 1rem 0;
+}
+.btnReg {
+    font-size: 0.97rem;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    color: rgb(29, 5, 20);
+    padding: 12px 16px;
+    border-radius: 0.2rem;
+    margin-top: 0.6rem;
+}
+.btnReg:hover {
+    color: rgb(36, 220, 143);
+  
+    transition: 0.3s all linear;
 }
 
 .btn {
